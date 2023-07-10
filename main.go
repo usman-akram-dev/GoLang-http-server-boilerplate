@@ -12,8 +12,6 @@ import (
 )
 
 func main() {
-	fmt.Println("hello world")
-
 	godotenv.Load()
 
 	portString := os.Getenv("PORT")
